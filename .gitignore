@@ -110,13 +110,11 @@ venv.bak/
 dmypy.json
 
 # images
-*.jpg
 *.jpeg
 *.png
 
 # text files
 *.log
-*.csv
 *.xlsx
 *.xls
 *.doc
@@ -127,3 +125,4 @@ dmypy.json
 # zip files
 *.gz
 *.zip
+*.tar

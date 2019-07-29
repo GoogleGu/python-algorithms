@@ -7,7 +7,7 @@ from numpy import reshape
 from sklearn.cluster import KMeans
 
 from config import DATA_ROOT
-pic_path = DATA_ROOT + os.sep + 'kmeans.jpg'
+pic_path = DATA_ROOT + os.sep + 'soccer.jpg'
 img = imread(pic_path)
 
 pixel = reshape(img, (img.shape[0] * img.shape[1], 3))

@@ -13,8 +13,6 @@ from config import DATA_ROOT
 pic_file = DATA_ROOT + os.sep + 'soccer.jpg'
 
 
-
-
 class cannyEdgeDetector:
     def __init__(self, imgs, sigma=1, kernel_size=5, weak_pixel=75, strong_pixel=255, lowthreshold=0.05,
                  highthreshold=0.15):

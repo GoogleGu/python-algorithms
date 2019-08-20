@@ -1,16 +1,10 @@
-import os
-
-from scipy import ndimage
 from scipy.ndimage.filters import convolve
-from scipy import misc
-import numpy as np
-import cv2
 import numpy as np
 from scipy import ndimage
 
-from config import DATA_ROOT
+from util import get_data_file_path
 
-pic_file = DATA_ROOT + os.sep + 'soccer.jpg'
+data = get_data_file_path('soccer.jpg')
 
 
 class cannyEdgeDetector:

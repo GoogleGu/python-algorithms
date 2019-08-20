@@ -1,13 +1,12 @@
-from cv2 import imread, imshow, imwrite
-import cv2
-import os
 from copy import deepcopy
 
+from cv2 import imread, imshow, imwrite
 from numpy import reshape
 from sklearn.cluster import KMeans
 
-from config import DATA_ROOT
-pic_path = DATA_ROOT + os.sep + 'soccer.jpg'
+from util import get_data_file_path
+
+pic_path = get_data_file_path('soccer.jpg')
 img = imread(pic_path)
 
 pixel = reshape(img, (img.shape[0] * img.shape[1], 3))
@@ -28,4 +27,3 @@ for i in range(len(pixel)):
     pixel_new[i, :] = palette[labels[i]]
 
 imwrite('zipped.jpg', reshape(pixel_new, (img.shape[0], img.shape[1], 3)))
-

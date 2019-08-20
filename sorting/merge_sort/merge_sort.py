@@ -44,7 +44,7 @@ def merge(data, left_start, left_end, right_start, right_end):
 
 if __name__ == '__main__':
 
-    sorted_data = merge_sort([4, 3, 2, 1])
+    sorted_data = merge_sort([1,2,3,4,5,6,7,0])
     print(sorted_data)
 
 

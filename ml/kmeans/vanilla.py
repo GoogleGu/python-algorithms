@@ -1,14 +1,13 @@
-import os
 from copy import deepcopy
 
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
-from config import DATA_ROOT
+from util import get_data_file_path
 
-# 导入数据
-data = pd.read_csv(DATA_ROOT + os.sep + 'kmeans-data.csv')
+data_path = get_data_file_path('kmeans-data.csv')
+data = pd.read_csv(data_path)
 f1 = data['V1'].values
 f2 = data['V2'].values
 X = np.array(list(zip(f1, f2)))
@@ -51,3 +50,7 @@ for i in range(k):
     ax.scatter(points[:, 0], points[:, 1], s=7, c=colors[i])
 ax.scatter(C[:, 0], C[:, 1], marker='*', s=200, c='#050505')
 plt.show()
+
+with open('knn.csv', 'w') as f:
+    for i in range(len(X)):
+        f.write('{},{},{}\n'.format(X[i][0], X[i][1], int(clusters[i])))

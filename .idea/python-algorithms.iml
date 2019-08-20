@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ml" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sorting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sorting/binary_search" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.5 (ml)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

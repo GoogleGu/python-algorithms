@@ -1,11 +1,10 @@
-import os
-
 import cv2
 
-from config import DATA_ROOT
+from util import get_data_file_path
 
 
-pic_file = DATA_ROOT + os.sep + 'soccer.jpg'
+pic_file = get_data_file_path('soccer.jpg')
+
 
 """
 MSER_create()方法可以接受多个参数：

@@ -1,11 +1,9 @@
-import os
-
 import cv2
 from matplotlib import pyplot as plt
 
-from config import DATA_ROOT
+from util import get_data_file_path
 
-pic_file = DATA_ROOT + os.sep + 'soccer.jpg'
+pic_file = get_data_file_path('soccer.jpg')
 img = cv2.imread(pic_file, 0)
 
 """

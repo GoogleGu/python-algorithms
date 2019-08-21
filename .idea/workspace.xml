@@ -2,35 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9540caba-96c5-4450-94df-d7618dfd04f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/knn.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/linear_regression/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/linear_regression/scikit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/linear_regression/vanilla.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/logistic_regression/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/binary_search/binary_search.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/kdtree/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/kdtree/kdtree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/kdtree/kdtrees.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-algorithms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/bayes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/spam.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml/naive_bayes/vanilla.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_processing/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/knn/scikit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_processing/cannyedge/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/linear_regression/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_processing/cannyedge/opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_processing/cannyedge/opencv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_processing/cannyedge/vanila.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_processing/cannyedge/vanilla.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_processing/mser/opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_processing/mser/opencv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_processing/nms/vanila.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_processing/nms/vanilla.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/logistic_regression/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/kmeans/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/logistic_regression/scikit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/kmeans/scikit.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/kmeans/scikit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/kmeans/vanila.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/kmeans/vanilla.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/naive_bayes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/logistic_regression/vanilla.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/naive_bayes/sklearn.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/naive_bayes/sklearn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/merge_sort/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/merge_sort/merge_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/merge_sort/merge_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/merge_sort/归并排序 Merge Sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/merge_sort/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/naive_bayes/sklearn.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/naive_bayes/scikit.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +44,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataset" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ml/naive_bayes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,17 +56,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dataset" />
-      <recent name="$PROJECT_DIR$/ml" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tree/kdtree" />
       <recent name="$PROJECT_DIR$/dataset" />
       <recent name="$PROJECT_DIR$/ml/logistic_regression" />
       <recent name="$PROJECT_DIR$/ml/linear_regression" />
       <recent name="$PROJECT_DIR$/sorting/merge_sort" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ml/naive_bayes" />
+      <recent name="$PROJECT_DIR$/dataset" />
+      <recent name="$PROJECT_DIR$/ml" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -105,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.scikit (2)">
+  <component name="RunManager" selected="Python.vanilla (2)">
     <configuration name="scikit (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="vanila" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sklearn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,12 +135,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml/linear_regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml/naive_bayes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/linear_regression/vanilla.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/naive_bayes/scikit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +171,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="vanilla" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="vanilla (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -202,12 +179,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml/logistic_regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml/naive_bayes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/logistic_regression/vanilla.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/naive_bayes/vanilla.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.vanilla (2)" />
+        <item itemvalue="Python.sklearn" />
         <item itemvalue="Python.scikit (2)" />
         <item itemvalue="Python.vanilla (1)" />
         <item itemvalue="Python.scikit (1)" />
-        <item itemvalue="Python.vanilla" />
-        <item itemvalue="Python.vanila" />
       </list>
     </recent_temporary>
   </component>
@@ -265,6 +242,9 @@
       <workItem from="1565227520349" duration="7702000" />
       <workItem from="1565314371352" duration="3396000" />
       <workItem from="1565660897277" duration="5714000" />
+      <workItem from="1566297288695" duration="2887000" />
+      <workItem from="1566346071498" duration="892000" />
+      <workItem from="1566349757254" duration="6376000" />
     </task>
     <task id="LOCAL-00001" summary="set up project files&#10;upload gitignore and requirements">
       <created>1562913424155</created>
@@ -294,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564451978947</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="上传kdtree">
+      <created>1566297312303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566297312303</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +305,8 @@
     <MESSAGE value="添加数据源文件的追踪&#10;完成kmeans算法" />
     <MESSAGE value="上传canny edge边缘检测" />
     <MESSAGE value="完成了merge sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成了merge sort" />
+    <MESSAGE value="上传kdtree" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传kdtree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -332,17 +320,18 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_algorithms$vanila__1_.coverage" NAME="vanila (1) Coverage Results" MODIFIED="1564144279330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/image_processing/cannyedge" />
-    <SUITE FILE_PATH="coverage/python_algorithms$scikit__2_.coverage" NAME="scikit (2) Coverage Results" MODIFIED="1565315768788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml/knn" />
     <SUITE FILE_PATH="coverage/python_algorithms$config.coverage" NAME="config Coverage Results" MODIFIED="1563934802197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_algorithms$vanilla__1_.coverage" NAME="vanilla (1) Coverage Results" MODIFIED="1565315258141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml/kmeans" />
-    <SUITE FILE_PATH="coverage/python_algorithms$sklearn.coverage" NAME="sklearn Coverage Results" MODIFIED="1564966462389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml/linear_regression" />
-    <SUITE FILE_PATH="coverage/python_algorithms$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1564454664132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting/merge_sort" />
-    <SUITE FILE_PATH="coverage/python_algorithms$opencv__1_.coverage" NAME="opencv (1) Coverage Results" MODIFIED="1564152067050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/image_processing/cannyedge" />
-    <SUITE FILE_PATH="coverage/python_algorithms$opencv.coverage" NAME="opencv Coverage Results" MODIFIED="1564048936536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/image_processing/MSER" />
+    <SUITE FILE_PATH="coverage/python_algorithms$sklearn.coverage" NAME="sklearn Coverage Results" MODIFIED="1566346610548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml/naive_bayes" />
+    <SUITE FILE_PATH="coverage/python_algorithms$vanilla__2_.coverage" NAME="vanilla (2) Coverage Results" MODIFIED="1566358079144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml/naive_bayes" />
     <SUITE FILE_PATH="coverage/python_algorithms$vanilla.coverage" NAME="vanilla Coverage Results" MODIFIED="1565236195488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml/logistic_regression" />
     <SUITE FILE_PATH="coverage/python_algorithms$scikit.coverage" NAME="scikit Coverage Results" MODIFIED="1565235452837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml/logistic_regression" />
     <SUITE FILE_PATH="coverage/python_algorithms$vanila.coverage" NAME="vanila Coverage Results" MODIFIED="1565236180917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml/linear_regression" />
     <SUITE FILE_PATH="coverage/python_algorithms$scikit__1_.coverage" NAME="scikit (1) Coverage Results" MODIFIED="1565314561057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml/kmeans" />
+    <SUITE FILE_PATH="coverage/python_algorithms$vanila__1_.coverage" NAME="vanila (1) Coverage Results" MODIFIED="1564144279330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/image_processing/cannyedge" />
+    <SUITE FILE_PATH="coverage/python_algorithms$scikit__2_.coverage" NAME="scikit (2) Coverage Results" MODIFIED="1565315768788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml/knn" />
+    <SUITE FILE_PATH="coverage/python_algorithms$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1564454664132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting/merge_sort" />
+    <SUITE FILE_PATH="coverage/python_algorithms$opencv__1_.coverage" NAME="opencv (1) Coverage Results" MODIFIED="1564152067050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/image_processing/cannyedge" />
+    <SUITE FILE_PATH="coverage/python_algorithms$opencv.coverage" NAME="opencv Coverage Results" MODIFIED="1564048936536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/image_processing/MSER" />
   </component>
 </project>

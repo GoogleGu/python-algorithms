@@ -1,13 +1,12 @@
+from pathlib import Path
 from copy import deepcopy
 
 from cv2 import imread, imshow, imwrite
 from numpy import reshape
 from sklearn.cluster import KMeans
 
-from util import get_data_file_path
-
-pic_path = get_data_file_path('soccer.jpg')
-img = imread(pic_path)
+pic_path = Path('kmeans.jpg')
+img = imread(pic_path.as_posix())
 
 pixel = reshape(img, (img.shape[0] * img.shape[1], 3))
 print(pixel.shape)

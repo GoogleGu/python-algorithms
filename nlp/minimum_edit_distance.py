@@ -11,8 +11,6 @@ EDIT_COST = {
     'substitute': 2,
 }
 
-INFINITE_LARGE = 10000000000000
-
 
 def minimum_edit_distance(source, target):
 

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9540caba-96c5-4450-94df-d7618dfd04f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nlp/byte_pair_encoding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nlp/max_match.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlp/dtw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlp/minimum_edit_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/nlp/minimum_edit_distance.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <recent name="$PROJECT_DIR$/ml/logistic_regression" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.max_match">
+  <component name="RunManager" selected="Python.dtw">
     <configuration name="byte_pair_encoding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,6 +95,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="dtw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nlp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nlp/dtw.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="max_match" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,28 +129,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nlp/max_match.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="merge_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-algorithms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sorting/merge_sort" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorting/merge_sort/merge_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dtw" />
         <item itemvalue="Python.max_match" />
         <item itemvalue="Python.byte_pair_encoding" />
         <item itemvalue="Python.minimum_edit_distance" />
         <item itemvalue="Python.vanilla" />
-        <item itemvalue="Python.merge_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582177439914</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="完成BPE和MaxMatch">
+      <created>1582273314971</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582273314971</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +333,8 @@
     <MESSAGE value="上传kdtree" />
     <MESSAGE value="完成朴素贝叶斯" />
     <MESSAGE value="完成最小编辑路径" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成最小编辑路径" />
+    <MESSAGE value="完成BPE和MaxMatch" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成BPE和MaxMatch" />
   </component>
   <component name="WindowStateProjectService">
     <state x="723" y="247" key="#xdebugger.evaluate" timestamp="1582257642289">
@@ -336,29 +342,29 @@
     </state>
     <state x="723" y="247" key="#xdebugger.evaluate/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582257642289" />
     <state x="723" y="247" key="#xdebugger.evaluate/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492149745" />
-    <state x="595" y="68" key="CommitChangelistDialog2" timestamp="1582177439774">
+    <state x="595" y="68" key="CommitChangelistDialog2" timestamp="1582273314850">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="595" y="68" key="CommitChangelistDialog2/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582177439774" />
-    <state width="1897" height="305" key="GridCell.Tab.0.bottom" timestamp="1582267233650">
+    <state x="595" y="68" key="CommitChangelistDialog2/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582273314850" />
+    <state width="1897" height="338" key="GridCell.Tab.0.bottom" timestamp="1583724409325">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1897" height="305" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582267233650" />
+    <state width="1897" height="338" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1583724409325" />
     <state width="1876" height="319" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913996" />
-    <state width="1897" height="305" key="GridCell.Tab.0.center" timestamp="1582267233649">
+    <state width="1897" height="338" key="GridCell.Tab.0.center" timestamp="1583724409324">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1897" height="305" key="GridCell.Tab.0.center/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582267233649" />
+    <state width="1897" height="338" key="GridCell.Tab.0.center/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1583724409324" />
     <state width="1876" height="319" key="GridCell.Tab.0.center/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913996" />
-    <state width="1897" height="305" key="GridCell.Tab.0.left" timestamp="1582267233649">
+    <state width="1897" height="338" key="GridCell.Tab.0.left" timestamp="1583724409324">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1897" height="305" key="GridCell.Tab.0.left/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582267233649" />
+    <state width="1897" height="338" key="GridCell.Tab.0.left/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1583724409324" />
     <state width="1876" height="319" key="GridCell.Tab.0.left/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913995" />
-    <state width="1897" height="305" key="GridCell.Tab.0.right" timestamp="1582267233650">
+    <state width="1897" height="338" key="GridCell.Tab.0.right" timestamp="1583724409325">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1897" height="305" key="GridCell.Tab.0.right/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582267233650" />
+    <state width="1897" height="338" key="GridCell.Tab.0.right/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1583724409325" />
     <state width="1876" height="319" key="GridCell.Tab.0.right/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913996" />
     <state width="1897" height="305" key="GridCell.Tab.1.bottom" timestamp="1582267233652">
       <screen x="0" y="23" width="1920" height="1057" />
@@ -380,10 +386,10 @@
     </state>
     <state width="1897" height="305" key="GridCell.Tab.1.right/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582267233651" />
     <state width="1876" height="45" key="GridCell.Tab.1.right/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913991" />
-    <state x="559" y="288" key="Vcs.Push.Dialog.v2" timestamp="1582177442366">
+    <state x="559" y="288" key="Vcs.Push.Dialog.v2" timestamp="1582273316846">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="559" y="288" key="Vcs.Push.Dialog.v2/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582177442366" />
+    <state x="559" y="288" key="Vcs.Push.Dialog.v2/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582273316846" />
     <state x="651" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1582273292226">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

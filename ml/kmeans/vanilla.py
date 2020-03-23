@@ -11,24 +11,28 @@ class KMeans:
         self.k = k
         self.tolerance = tolerance
         self.max_iterations = max_iterations
-        self.centroids = [None for _ in range(k)]
-        self.classes = [[] for i in range(self.k)]
+        self.centroids = None
+        self.classes = None
+        self.X = None
 
     def fit(self, X):
-        for i in range(self.k):
-            self.centroids[i] = X[i]
+        self.X = X
+        self.centroids = X[:self.k]
+        self.classes = np.array([0 for _ in range(len(X))])
 
         for i in range(self.max_iterations):
-            self.classes = [[] for i in range(self.k)]
+            # distances = []
+            # for centroid in self.centroids:
+            #     distances.append(np.linalg.norm(X-centroid, axis=1))
+            # self.classes = np.argmax(np.array(distances), axis=0)
 
-            for sample in X:
-                distances = [np.linalg.norm(sample - centroid) for centroid in self.centroids]
-                classification = distances.index(min(distances))
-                self.classes[classification].append(sample)
+            for i in range(len(X)):
+                distances = [np.linalg.norm(X[i] - centroid) for centroid in self.centroids]
+                self.classes[i] = distances.index(min(distances))
 
             old_centroids = self.centroids.copy()
-            for i in range(len(self.classes)):
-                self.centroids[i] = np.average(self.classes[i], axis=0)
+            for i in range(self.k):
+                self.centroids[i] = np.average(self.X[self.classes == i], axis=0)
 
             for i in range(len(old_centroids)):
                 if np.linalg.norm(old_centroids[i]-self.centroids[i]) > self.tolerance:
@@ -41,10 +45,8 @@ class KMeans:
         colors = 10*["r", "g", "c", "b", "k"]
         for centroid in self.centroids:
             plt.scatter(centroid[0], centroid[1], s=130, marker="x")
-        for i in range(self.k):
-            color = colors[i]
-            for sample in self.classes[i]:
-                plt.scatter(sample[0], sample[1], color=color,s=5)
+        for i in range(len(self.X)):
+            plt.scatter(self.X[i][0], self.X[i][1], color=colors[self.classes[i]],s=5)
         plt.show()
 
 

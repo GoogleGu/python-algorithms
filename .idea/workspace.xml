@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9540caba-96c5-4450-94df-d7618dfd04f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nlp/dtw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml/decision_tree/vanilla.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml/kmeans/vanilla.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlp/tfidf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlp/word2vec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w2v/medium_text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w2v/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w2v/skipgram_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w2v/utils_modified.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -59,42 +66,21 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/w2v" />
+      <recent name="$PROJECT_DIR$/sorting" />
+      <recent name="$PROJECT_DIR$/ml/naive_bayes" />
+      <recent name="$PROJECT_DIR$/tree/kdtree" />
+      <recent name="$PROJECT_DIR$/dataset" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ml/naive_bayes" />
       <recent name="$PROJECT_DIR$/dataset" />
       <recent name="$PROJECT_DIR$/ml" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sorting" />
-      <recent name="$PROJECT_DIR$/ml/naive_bayes" />
-      <recent name="$PROJECT_DIR$/tree/kdtree" />
-      <recent name="$PROJECT_DIR$/dataset" />
-      <recent name="$PROJECT_DIR$/ml/logistic_regression" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.dtw">
-    <configuration name="byte_pair_encoding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-algorithms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nlp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nlp/byte_pair_encoding.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.vanilla">
     <configuration name="dtw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="minimum_edit_distance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tfidf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,7 +135,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nlp/minimum_edit_distance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nlp/tfidf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,8 +156,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/kmeans/vanilla.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="word2vec" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nlp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nlp/word2vec.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.vanilla" />
+        <item itemvalue="Python.word2vec" />
+        <item itemvalue="Python.tfidf" />
         <item itemvalue="Python.dtw" />
         <item itemvalue="Python.max_match" />
-        <item itemvalue="Python.byte_pair_encoding" />
-        <item itemvalue="Python.minimum_edit_distance" />
-        <item itemvalue="Python.vanilla" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582273314971</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="完成DTW">
+      <created>1583733689516</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583733689516</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,66 +347,79 @@
     <MESSAGE value="完成朴素贝叶斯" />
     <MESSAGE value="完成最小编辑路径" />
     <MESSAGE value="完成BPE和MaxMatch" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成BPE和MaxMatch" />
+    <MESSAGE value="完成DTW" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成DTW" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="723" y="247" key="#xdebugger.evaluate" timestamp="1582257642289">
+    <state x="697" y="304" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584930218669">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="723" y="247" key="#xdebugger.evaluate/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582257642289" />
+    <state x="697" y="304" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1584930218669" />
+    <state x="1007" y="258" key="#xdebugger.evaluate" timestamp="1584949109905">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1007" y="258" key="#xdebugger.evaluate/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1584949109905" />
     <state x="723" y="247" key="#xdebugger.evaluate/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492149745" />
-    <state x="595" y="68" key="CommitChangelistDialog2" timestamp="1582273314850">
+    <state x="595" y="68" key="CommitChangelistDialog2" timestamp="1583733689413">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="595" y="68" key="CommitChangelistDialog2/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582273314850" />
-    <state width="1897" height="338" key="GridCell.Tab.0.bottom" timestamp="1583724409325">
+    <state x="595" y="68" key="CommitChangelistDialog2/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1583733689413" />
+    <state width="1897" height="349" key="GridCell.Tab.0.bottom" timestamp="1584949575564">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1897" height="338" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1583724409325" />
+    <state width="1897" height="305" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1584371000408" />
+    <state width="1897" height="349" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1584949575564" />
     <state width="1876" height="319" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913996" />
-    <state width="1897" height="338" key="GridCell.Tab.0.center" timestamp="1583724409324">
+    <state width="1897" height="349" key="GridCell.Tab.0.center" timestamp="1584949575563">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1897" height="338" key="GridCell.Tab.0.center/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1583724409324" />
+    <state width="1897" height="305" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1584371000408" />
+    <state width="1897" height="349" key="GridCell.Tab.0.center/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1584949575563" />
     <state width="1876" height="319" key="GridCell.Tab.0.center/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913996" />
-    <state width="1897" height="338" key="GridCell.Tab.0.left" timestamp="1583724409324">
+    <state width="1897" height="349" key="GridCell.Tab.0.left" timestamp="1584949575563">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1897" height="338" key="GridCell.Tab.0.left/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1583724409324" />
+    <state width="1897" height="305" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1584371000407" />
+    <state width="1897" height="349" key="GridCell.Tab.0.left/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1584949575563" />
     <state width="1876" height="319" key="GridCell.Tab.0.left/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913995" />
-    <state width="1897" height="338" key="GridCell.Tab.0.right" timestamp="1583724409325">
+    <state width="1897" height="349" key="GridCell.Tab.0.right" timestamp="1584949575564">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1897" height="338" key="GridCell.Tab.0.right/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1583724409325" />
+    <state width="1897" height="305" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1584371000408" />
+    <state width="1897" height="349" key="GridCell.Tab.0.right/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1584949575564" />
     <state width="1876" height="319" key="GridCell.Tab.0.right/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913996" />
-    <state width="1897" height="305" key="GridCell.Tab.1.bottom" timestamp="1582267233652">
+    <state width="1897" height="305" key="GridCell.Tab.1.bottom" timestamp="1584949407531">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1897" height="305" key="GridCell.Tab.1.bottom/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582267233652" />
+    <state width="1897" height="305" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1584371000409" />
+    <state width="1897" height="305" key="GridCell.Tab.1.bottom/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1584949407531" />
     <state width="1876" height="45" key="GridCell.Tab.1.bottom/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913991" />
-    <state width="1897" height="305" key="GridCell.Tab.1.center" timestamp="1582267233651">
+    <state width="1897" height="305" key="GridCell.Tab.1.center" timestamp="1584949407530">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1897" height="305" key="GridCell.Tab.1.center/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582267233651" />
+    <state width="1897" height="305" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1584371000409" />
+    <state width="1897" height="305" key="GridCell.Tab.1.center/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1584949407530" />
     <state width="1876" height="45" key="GridCell.Tab.1.center/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913991" />
-    <state width="1897" height="305" key="GridCell.Tab.1.left" timestamp="1582267233650">
+    <state width="1897" height="305" key="GridCell.Tab.1.left" timestamp="1584949407529">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1897" height="305" key="GridCell.Tab.1.left/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582267233650" />
+    <state width="1897" height="305" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1584371000409" />
+    <state width="1897" height="305" key="GridCell.Tab.1.left/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1584949407529" />
     <state width="1876" height="45" key="GridCell.Tab.1.left/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913991" />
-    <state width="1897" height="305" key="GridCell.Tab.1.right" timestamp="1582267233651">
+    <state width="1897" height="305" key="GridCell.Tab.1.right" timestamp="1584949407530">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1897" height="305" key="GridCell.Tab.1.right/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582267233651" />
+    <state width="1897" height="305" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1584371000409" />
+    <state width="1897" height="305" key="GridCell.Tab.1.right/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1584949407530" />
     <state width="1876" height="45" key="GridCell.Tab.1.right/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913991" />
-    <state x="559" y="288" key="Vcs.Push.Dialog.v2" timestamp="1582273316846">
+    <state x="559" y="288" key="Vcs.Push.Dialog.v2" timestamp="1583733690786">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="559" y="288" key="Vcs.Push.Dialog.v2/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582273316846" />
-    <state x="651" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1582273292226">
+    <state x="559" y="288" key="Vcs.Push.Dialog.v2/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1583733690786" />
+    <state x="651" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1584411388355">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="651" y="383" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1582273292226" />
+    <state x="651" y="383" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1584411388355" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

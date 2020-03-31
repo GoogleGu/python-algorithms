@@ -5,8 +5,8 @@ import numpy as np
 
 class LinearModel:
 
-    def __init__(self, shape):
-        self.theta = np.random.rand(*shape)
+    def __init__(self):
+        self.theta = None
         self.errors = []
 
     def pad_with_ones(self, X):
@@ -18,8 +18,9 @@ class LinearModel:
         pass
 
     def fit(self, X, Y, a=0.01, iterations=10000):
-        self.errors = []
         padded_X = self.pad_with_ones(X.copy())
+        self.errors = []
+        self.theta =np.random.rand(*padded_X.shape)
         m = padded_X.shape[0]
         last_error = 100000
         for i in range(iterations):

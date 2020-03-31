@@ -1,11 +1,40 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from copy import deepcopy
+from cv2 import imread, imshow, imwrite
+from sklearn.cluster import KMeans
 
-import util
+from lib import datautil
 
 
-class KMeans:
+data_file = datautil.get_data_file_path("knn.csv")
+
+
+def sk_usage():
+    img = imread(data_file.as_posix())
+
+    pixel = np.reshape(img, (img.shape[0] * img.shape[1], 3))
+    print(pixel.shape)
+    pixel_new = deepcopy(pixel)
+
+    print(img.shape)
+
+    model = KMeans(n_clusters=5)
+    # 注意，KMeans的fit_predict方法入参必须是两个dimension，d1是各个样本，d2是每个样本的features, 返回值是每个样本分到第几类的列表
+    labels = model.fit_predict(pixel)
+    # cluster_centers_返回各类中心点的列表
+    palette = model.cluster_centers_
+
+    print(labels)
+
+    for i in range(len(pixel)):
+        pixel_new[i, :] = palette[labels[i]]
+
+    imwrite('zipped.jpg', np.reshape(pixel_new, (img.shape[0], img.shape[1], 3)))
+
+
+class VanillaKMeans:
 
     def __init__(self, k=3, tolerance=0.0001, max_iterations=500):
         self.k = k
@@ -50,11 +79,9 @@ class KMeans:
         plt.show()
 
 
-if __name__ == '__main__':
-    data_file = util.get_data_file_path("knn.csv")
+def demo():
     X = pd.read_csv(data_file).values[:, :2]
-
-    kmeans = KMeans()
+    kmeans = VanillaKMeans()
     classes, centroids = kmeans.fit(X)
     print(centroids)
     kmeans.plot()

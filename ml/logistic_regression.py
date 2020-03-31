@@ -22,18 +22,6 @@ class LogisticRegression(LinearModel):
         m = X.shape[0]
         return np.sum(-(Y.T @ np.log(prob) + (1-Y).T @ np.log(1 - prob)) / m)
 
-    # def fit(self, X, Y):
-    #     self.errors = []
-    #     X = self.pad_with_ones(X)
-    #     self.theta = np.random.normal(0, 1, (X.shape[1], 1))
-    #
-    #     for _ in range(self.iterations):
-    #         step = self.lr * self.gradient(X, Y) / X.shape[0]
-    #         self.theta -= step
-    #         self.errors.append(self.loss(X, Y))
-    #         if np.linalg.norm(step) <= THRESHOLD:
-    #             break
-
     def gradient(self, X, Y):
         return X.T @ (sigmoid(X @ self.theta) - Y)
 

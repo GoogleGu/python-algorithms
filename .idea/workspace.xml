@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9540caba-96c5-4450-94df-d7618dfd04f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ml/svm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-algorithms.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_processing/cannyedge/opencv.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_processing/cannyedge/vanilla.py" beforeDir="false" afterPath="$PROJECT_DIR$/misc/canny_edge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_processing/nms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_processing/nms/vanilla.py" beforeDir="false" afterPath="$PROJECT_DIR$/misc/nms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/decision_tree_vanilla.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/kmeans_sk.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/kmeans_vanilla.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/kmeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/knn_sk.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/knn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/linear_regression_sk.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/linear_regression_vanilla.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/logistic_regression_sk.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/logistic_regression_vanilla.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/logistic_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/logistic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/logistic_regression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ml/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/naive_bayes_sk.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/naive_bayes_vanilla.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/naive_bayes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/svm_sk.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlp/word2vec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/tree_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tree_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/datautil.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,28 +74,7 @@
       <recent name="$PROJECT_DIR$/ml" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.logistic_regression_vanilla">
-    <configuration name="kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-algorithms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml/kmeans" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/kmeans.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.logistic_regression">
     <configuration name="linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="logistic_reg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,6 +105,27 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml/logistic_regression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/logistic_reg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -157,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logistic_regression_sk" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,11 +146,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml/logistic_regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/logistic_regression_sk.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="svm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/svm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.logistic_regression_vanilla" />
+        <item itemvalue="Python.logistic_regression" />
+        <item itemvalue="Python.models" />
+        <item itemvalue="Python.logistic_regression" />
         <item itemvalue="Python.linear_regression" />
-        <item itemvalue="Python.logistic_regression_sk" />
-        <item itemvalue="Python.kmeans_vanilla" />
-        <item itemvalue="Python.word2vec" />
+        <item itemvalue="Python.svm" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585641149353</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="重新编排清理项目目录">
+      <created>1585645816095</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585645816095</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,71 +400,71 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="697" y="304" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585641091984" />
-    <state x="1007" y="258" key="#xdebugger.evaluate" timestamp="1585637930163">
+    <state x="1007" y="258" key="#xdebugger.evaluate" timestamp="1585647129011">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="1007" y="258" key="#xdebugger.evaluate/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585637930163" />
+    <state x="1007" y="258" key="#xdebugger.evaluate/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585647129011" />
     <state x="723" y="247" key="#xdebugger.evaluate/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492149745" />
     <state x="711" y="405" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585640896735">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="711" y="405" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585640896735" />
-    <state x="595" y="68" key="CommitChangelistDialog2" timestamp="1585641149213">
+    <state x="595" y="68" key="CommitChangelistDialog2" timestamp="1585645815972">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="595" y="68" key="CommitChangelistDialog2/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585641149213" />
-    <state width="1897" height="157" key="GridCell.Tab.0.bottom" timestamp="1585645797327">
+    <state x="595" y="68" key="CommitChangelistDialog2/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585645815972" />
+    <state width="1897" height="288" key="GridCell.Tab.0.bottom" timestamp="1585647346932">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1657" height="111" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1585638462394" />
-    <state width="1897" height="157" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585645797327" />
+    <state width="1897" height="288" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585647346932" />
     <state width="1876" height="319" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913996" />
-    <state width="1897" height="157" key="GridCell.Tab.0.center" timestamp="1585645797327">
+    <state width="1897" height="288" key="GridCell.Tab.0.center" timestamp="1585647346931">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1657" height="111" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1585638462394" />
-    <state width="1897" height="157" key="GridCell.Tab.0.center/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585645797327" />
+    <state width="1897" height="288" key="GridCell.Tab.0.center/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585647346931" />
     <state width="1876" height="319" key="GridCell.Tab.0.center/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913996" />
-    <state width="1897" height="157" key="GridCell.Tab.0.left" timestamp="1585645797326">
+    <state width="1897" height="288" key="GridCell.Tab.0.left" timestamp="1585647346931">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1657" height="111" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1585638462394" />
-    <state width="1897" height="157" key="GridCell.Tab.0.left/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585645797326" />
+    <state width="1897" height="288" key="GridCell.Tab.0.left/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585647346931" />
     <state width="1876" height="319" key="GridCell.Tab.0.left/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913995" />
-    <state width="1897" height="157" key="GridCell.Tab.0.right" timestamp="1585645797327">
+    <state width="1897" height="288" key="GridCell.Tab.0.right" timestamp="1585647346931">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1657" height="111" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1585638462394" />
-    <state width="1897" height="157" key="GridCell.Tab.0.right/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585645797327" />
+    <state width="1897" height="288" key="GridCell.Tab.0.right/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585647346931" />
     <state width="1876" height="319" key="GridCell.Tab.0.right/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913996" />
-    <state width="1897" height="305" key="GridCell.Tab.1.bottom" timestamp="1585637944429">
+    <state width="1897" height="305" key="GridCell.Tab.1.bottom" timestamp="1585647212385">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1897" height="305" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1584371000409" />
-    <state width="1897" height="305" key="GridCell.Tab.1.bottom/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585637944429" />
+    <state width="1897" height="305" key="GridCell.Tab.1.bottom/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585647212385" />
     <state width="1876" height="45" key="GridCell.Tab.1.bottom/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913991" />
-    <state width="1897" height="305" key="GridCell.Tab.1.center" timestamp="1585637944429">
+    <state width="1897" height="305" key="GridCell.Tab.1.center" timestamp="1585647212384">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1897" height="305" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1584371000409" />
-    <state width="1897" height="305" key="GridCell.Tab.1.center/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585637944429" />
+    <state width="1897" height="305" key="GridCell.Tab.1.center/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585647212384" />
     <state width="1876" height="45" key="GridCell.Tab.1.center/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913991" />
-    <state width="1897" height="305" key="GridCell.Tab.1.left" timestamp="1585637944429">
+    <state width="1897" height="305" key="GridCell.Tab.1.left" timestamp="1585647212384">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1897" height="305" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1584371000409" />
-    <state width="1897" height="305" key="GridCell.Tab.1.left/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585637944429" />
+    <state width="1897" height="305" key="GridCell.Tab.1.left/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585647212384" />
     <state width="1876" height="45" key="GridCell.Tab.1.left/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913991" />
-    <state width="1897" height="305" key="GridCell.Tab.1.right" timestamp="1585637944429">
+    <state width="1897" height="305" key="GridCell.Tab.1.right" timestamp="1585647212385">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1897" height="305" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1584371000409" />
-    <state width="1897" height="305" key="GridCell.Tab.1.right/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585637944429" />
+    <state width="1897" height="305" key="GridCell.Tab.1.right/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585647212385" />
     <state width="1876" height="45" key="GridCell.Tab.1.right/0.23.1920.1057/1920.195.1680.1027@0.23.1920.1057" timestamp="1578492913991" />
-    <state x="559" y="288" key="Vcs.Push.Dialog.v2" timestamp="1585641150615">
+    <state x="559" y="288" key="Vcs.Push.Dialog.v2" timestamp="1585645817118">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="559" y="288" key="Vcs.Push.Dialog.v2/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585641150615" />
+    <state x="559" y="288" key="Vcs.Push.Dialog.v2/0.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1585645817118" />
     <state x="651" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1585618008694">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

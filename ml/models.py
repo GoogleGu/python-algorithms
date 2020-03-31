@@ -3,6 +3,9 @@ from abc import abstractmethod
 import numpy as np
 
 
+THRESHOLD = 0.00001
+
+
 class LinearModel:
 
     def __init__(self):
@@ -17,17 +20,18 @@ class LinearModel:
     def loss(self, X, Y):
         pass
 
-    def fit(self, X, Y, a=0.01, iterations=10000):
+    def fit(self, X, Y, lr=0.1, iterations=1000):
         padded_X = self.pad_with_ones(X.copy())
         self.errors = []
-        self.theta =np.random.rand(*padded_X.shape)
+        self.theta =np.random.rand(padded_X.shape[1], 1)
         m = padded_X.shape[0]
-        last_error = 100000
+        last_error = 10000
         for i in range(iterations):
-            self.theta = self.theta - (a / m) * self.gradient(padded_X, Y)
-            this_error = self.loss(padded_X, Y)
-            self.errors.append(this_error)
-            if last_error - this_error < 0.001:
+            step = (lr / m) * self.gradient(padded_X, Y)
+            self.theta = self.theta - step
+            self.errors.append(self.loss(padded_X, Y))
+            this_error = self.errors[-1]
+            if last_error - this_error < THRESHOLD:
                 break
             last_error = this_error
 

@@ -1,3 +1,4 @@
+import random
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -12,6 +13,9 @@ data_file = datautil.get_data_file_path("knn.csv")
 
 
 def sk_usage():
+    """
+    使用scikit learn完成kmeans算法的实现
+    """
     img = imread(data_file.as_posix())
 
     pixel = np.reshape(img, (img.shape[0] * img.shape[1], 3))
@@ -35,6 +39,10 @@ def sk_usage():
 
 
 class VanillaKMeans:
+
+    """
+    从零实现二维空间的kmeans
+    """
 
     def __init__(self, k=3, tolerance=0.0001, max_iterations=500):
         self.k = k
@@ -85,3 +93,60 @@ def demo():
     classes, centroids = kmeans.fit(X)
     print(centroids)
     kmeans.plot()
+
+
+class Solution:
+    """
+    用kmeans算法解决LeetCode 1478题
+    https://leetcode-cn.com/problems/allocate-mailboxes/
+    """
+    def minDistance(self, houses, k):
+        return min(self.kmeans(houses, k) for i in range(50))
+
+    def kmeans(self, houses, k):
+        """
+
+        Args:
+            houses: houses[i] 是第 i 栋房子在一条街上的位置
+            k: 有多少个邮筒需要安排
+
+        Returns:
+            每栋房子与离它最近的邮筒之间的距离的最小总和
+        """
+
+        def distance(x1, x2):
+            return abs(x1-x2)
+
+        # 初始化k个起始中心点
+        mailboxes = [random.choice(houses) for _ in range(k)]
+
+        # 建立一个list存储每个house的所属类别，一开始先全部分到第一类中
+        classes = [0 for _ in houses]
+
+        # 开始迭代
+        cost = 1
+        while cost > 0:
+            # 分配点到各个类中
+            for i in range(len(houses)):
+                center_distances = [distance(houses[i], mailbox) for mailbox in mailboxes]
+                classes[i] = center_distances.index(min(center_distances))
+
+            # 变动中心点
+            cost = 0
+            for i in range(k):
+                class_i = [houses[j] for j in range(len(houses)) if classes[j] == i]
+                if not class_i:
+                    continue
+                new_pos = int(np.median(class_i))
+                cost += abs(new_pos - mailboxes[i])
+                mailboxes[i] = new_pos
+
+        # 计算总距离
+        total_dist = 0
+        for i in range(len(houses)):
+            total_dist += distance(houses[i], mailboxes[classes[i]])
+        print(mailboxes)
+        return total_dist
+
+for i in range(10):
+    print(Solution().minDistance([48,43,20,18,6,5,35,41,1,2,27,17,37], k=7))
